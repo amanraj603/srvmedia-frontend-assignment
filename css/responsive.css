@@ -1,0 +1,188 @@
+/* ── RESPONSIVE ── */
+@media (max-width: 1820px) {
+  hero__title {
+    font-size: 30px;
+  }
+  .hero__pill-value {
+    font-size: 18px;
+  }
+  .hero__pill-label{
+    font-size: 12px;
+  }
+  .hero__bubble--pill {
+    width: 150px;
+    height: 350px;
+    border-radius: 80px;
+  }
+  .hero__form-wrap{
+    padding: 15px;
+  }
+  .form__title{
+    font-size: 20px;
+  }
+  .form__input,
+  .form__textarea {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 1100px) {
+  .hero__inner {
+    grid-template-columns: 1fr 340px;
+  }
+  .hero__gallery {
+    display: none;
+  }
+  .choose__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stats__row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 8px 0;
+  }
+  .navbar--scrolled {
+    padding: 6px 0;
+  }
+  .navbar__logo-img {
+    height: 55px;
+  }
+  .navbar--scrolled .navbar__logo-img {
+    height: 38px;
+  }
+  .hero {
+    margin-top: 60px;
+  }
+  .hero__content{
+    padding-top: 35px;
+    padding-right: 0px;
+  }
+  .navbar__inner {
+    padding: 0 16px;
+  }
+  .hero__inner {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+  .hero__form-wrap {
+    margin-top: 24px;
+  }
+  .hero__title {
+    font-size: 1.8rem;
+  }
+  .hero__pill {
+    flex-direction: column;
+    border-radius: 16px;
+  }
+  .hero__pill-block {
+    padding: 12px 20px;
+  }
+  .hero__pill-value{
+    font-size: 14px;
+  }
+  .stats__row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0;
+  }
+  .badge__text--normal{
+    font-size: 16px;
+  }
+  .badge__text--bold{
+    font-size: 18px;
+  }
+  .badge__img{
+    height: 130px ;
+  }
+  .stats {
+    padding: 40px 0;
+  }
+  .schools {
+    padding: 36px 0 48px;
+  }
+  .schools__card{
+    width: 160px;
+    height: 80px;
+  }
+  .schools__card-logo{
+    padding: 2px;
+  }
+  .schools__card-logo img{
+    height: 60px;
+    width: auto;
+    max-width: 135px;
+    
+  }
+  .choose {
+    padding: 40px 0;
+  }
+  .choose__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .choose__card {
+    height: 220px;
+  }
+  .presc {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .presc__photo {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    order: -1;
+  }
+  .presc__photo::after {
+    background: linear-gradient(
+      to bottom,
+      rgba(222, 193, 255, 0) 50%,
+      #dec1ff 100%
+    );
+  }
+  .presc__content {
+    order: 1;
+    padding: 40px 24px;
+  }
+  .presc__tag{
+    font-size: 20px;
+  }
+  .presc__title{
+    font-size: 35px;
+  }
+  .mv {
+    padding: 48px 0 0;
+  }
+  .mv__title{
+    font-size: 30px;
+  }
+  .footer__body {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .container,
+  .navbar__inner,
+  .footer__body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .navbar__cta-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+  .navbar__cta-label{
+    padding: 0 12px;
+  }
+}
+@media (max-width: 480px) {
+  .choose__grid {
+    grid-template-columns: 1fr;
+  }
+  .stats__row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
