@@ -13,4 +13,4 @@
 - Clean and maintainable code
 
 ## Live Demo
-https://your-netlify-link.netlify.app
+https://srvmedia-frontend-assignment.netlify.app
